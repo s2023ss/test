@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #0070f3; /* Navbar background color */
+    padding: 10px;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Space out the links */
+    margin: 0;
+    padding: 0;
+}
+
+.navList li {
+    margin: 0 15px; /* Space between links */
+}
+
+.navList a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+.navList a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

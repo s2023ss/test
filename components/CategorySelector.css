@@ -1,0 +1,28 @@
+/* Açılır kutu için stil */
+.category-select {
+    width: 200px; /* Genişlik ayarı */
+    padding: 10px; /* İç boşluk */
+    border: 1px solid #ccc; /* Kenar rengi */
+    border-radius: 15px; /* Kenar yuvarlama */
+    background-color: #f9f9f9; /* Arka plan rengi */
+    font-size: 12px; /* Yazı boyutu */
+    transition: border-color 0.3s; /* Kenar rengi geçişi */
+    margin-top: 5px; /* Açılır kutunun yukarıda konumlandırılması için üst boşluk */
+}
+
+/* Açılır kutu üzerine gelindiğinde kenar rengi değişimi */
+.category-select:hover {
+    border-color: #007BFF; /* Hover rengi */
+}
+
+/* Açılır kutu odaklandığında kenar rengi değişimi */
+.category-select:focus {
+    outline: none; /* Varsayılan odak stilini kaldır */
+    border-color: #007BFF; /* Odak rengi */
+}
+
+/* Etiket için stil */
+label {
+    display: block; /* Etiketi blok eleman yap */
+    margin-bottom: 5px; /* Etiket ile açılır kutu arasında boşluk */
+} 
